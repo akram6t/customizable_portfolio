@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <link rel="stylesheet" href="css/utils.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="/js/script.js"></script>
+    <!-- <script src="js/data.js"></script> -->
+
+    <!-- for cursor -->
+    <link rel="stylesheet" href="css/cursor.css">
+    <script defer src="/js/cursor.js"></script>
+</head>
+
+<!-- <body class="bg-fixed bg-cover bg-no-repeat bg-center" style="background-color: rgb(35, 35, 35);"> -->
+
+<body id="idBody" class="bg-fixed bg-cover bg-no-repeat bg-center">
+
+    <!-- for cursor design -->
+    <div id="cursor" class="cursor"></div>
+    <div id="cursor2" class="cursor2"></div>
+
+
+    <div class="max-w-screen-xl mx-auto relative px-4">
+
+
+        <!-- Navbar Start -->
+        <nav id="navBar" class="fixed w-full z-20 top-0 left-0 backdrop-blur-3xl">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="/">
+                    <h1 id="navbarName" class="logo text-3xl font-semibold">Code Length</h1>
+                </a>
+                <div class="flex md:order-2">
+                    <a href="" id="btnCV" target="_blank"
+                        class="bg-yellow-300 text-black font-medium transition px-3 py-2 rounded-full hover:bg-opacity-70 active active:bg-opacity-50">
+                        Download CV
+                    </a>
+                    <button onclick="toggleNav()"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 text-gray-400 hover:bg-gray-700 focus:ring-gray-600">
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
+                </div>
+                <div id="navbarMenu" class="hidden items-center justify-between w-full lg:flex lg:w-auto lg:order-1">
+                    <ul
+                        class="flex flex-col p-4 lg:p-0 mt-4 font-medium border border-gray-600 rounded-lg  lg:bg-transparent lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0">
+                        <li>
+                            <a href="#"
+                                class="bg-white bg-opacity-0 block py-2 pl-3 pr-4 text-white rounded lg:bg-transparent lg:hover:text-yellow-300 lg:p-0"
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about"
+                                class="bg-white bg-opacity-0 block py-2 pl-3 pr-4 text-gray-900 rounded text-white lg:hover:bg-transparent lg:hover:text-yellow-300 lg:p-0">
+                                About</a>
+                        </li>
+                        <li>
+                            <a href="#whatido"
+                                class="bg-white bg-opacity-0 block py-2 pl-3 pr-4 text-gray-900 rounded text-white lg:hover:bg-transparent lg:hover:text-yellow-300 lg:p-0">
+                                What I do</a>
+                        </li>
+                        <li>
+                            <a href="#skills"
+                                class="bg-white bg-opacity-0 block py-2 pl-3 pr-4 text-gray-900 rounded text-white lg:hover:bg-transparent lg:hover:text-yellow-300 lg:p-0">
+                                Skills</a>
+                        </li>
+                        <li>
+                            <a href="#projects"
+                                class="bg-white bg-opacity-0 block py-2 pl-3 pr-4 text-gray-900 rounded text-white lg:hover:bg-transparent lg:hover:text-yellow-300 lg:p-0">
+                                Projects</a>
+                        </li>
+                        <li>
+                            <a href="#contact"
+                                class="bg-white bg-opacity-0 block py-2 pl-3 pr-4 text-gray-900 rounded text-white lg:hover:bg-transparent lg:hover:text-yellow-300 lg:p-0">
+                                Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+
+
+
+
+        <!-- Header Start -->
+        <div id="#" class="mt-40">
+            <div class="px-5 flex flex-col-reverse lg:flex-row gap-x-3 items-center flex-row justify-around">
+                <div class="flex-1">
+                    <h2 class="tracking-wider text-xl text-gray-400">Hello</h2>
+                    <h1 class="mt-1 text-4xl font-semibold tracking-widest">
+                        Hi I am <span class="text-yellow-400" id="headerName"> CodeLength </span>
+                    </h1>
+                    <p class="mt-2 text-2xl" id="headerDescription">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque
+                        voluptas quas ut! Harum quas aspernatur nulla nesciunt cupiditate
+                        soluta alias libero suscipit veniam, quam iure, nostrum molestias
+                        dicta minima nemo iste, saepe eum laborum minus.
+                    </p>
+                    <div id="headerLink" class="mt-5 flex items-center gap-x-2">
+                        <a href="#about"
+                            class="px-3 py-2 border text-gray-100 rounded-full shadow-lg hover:bg-white hover:bg-opacity-20 active:bg-opacity-30 transition font-bold text-black">
+                            About Me
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-1 flex items-center justify-center">
+                    <span class="profile-bg w-80 h-80 shadow rounded-full w-64 h-64 relative">
+                        <img id="headerProfile" class="w-full h-full rounded-full object-cover object  "
+                            alt="profile" />
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- Header End-->
+
+
+
+
+
+
+        <!-- About Me Start -->
+        <div id="about" class="mt-14">
+            <br /><br /><br />
+            <h1 class="text-center text-4xl font-bold text-teal-300">About Me</h1>
+            <div
+                class="px-5 mt-12 flex flex-col-reverse lg:flex-row-reverse lg:flex-row gap-x-3 items-center justify-around">
+                <div class="flex-1">
+                    <h2 class="tracking-wider text-xl text-gray-400">Hello</h2>
+                    <h1 class="mt-1 text-4xl font-semibold tracking-widest">
+                        Hi I am <span class="text-teal-400" id="aboutName"> CodeLength </span>
+                    </h1>
+                    <p class="mt-2 text-xl" id="aboutDescription">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, reprehenderit.
+                    </p>
+                    <h3 class="mt-3 text-xl text-teal-200 font-semibold">
+                        Follow Me On
+                    </h3>
+                    <div id="listSocial" class="mt-5 flex flex-wrap items-center gap-x-2">
+
+                        <!-- THis place containing a list of social links -->
+
+                    </div>
+                </div>
+                <div class="flex-1 flex items-center justify-center">
+                    <span class="aboutme-bg w-80 h-80 shadow rounded-full w-64 h-64 relative">
+                        <img id="aboutProfile" class="w-full h-full rounded-full object-cover object-center"
+                            alt="profile" />
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- About me End -->
+
+
+        <!-- whatido Start -->
+        <div id="whatido" class="mt-10">
+            <br /><br /><br />
+            <h1 class="text-center text-4xl font-bold text-yellow-300">What I Do</h1>
+            <div id="gridWhatIDo"
+                class="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-x-5 gap-y-5 items-center mt-10">
+
+                <!-- this place Item show from javascript -->
+
+            </div>
+        </div>
+            <!-- whatido End -->
+
+
+
+
+            <!-- Skills Start -->
+            <div id="skills" class="mt-10">
+                <br /><br /><br />
+                <h1 class="text-center text-4xl font-bold text-yellow-300">Skills</h1>
+                <div id="gridSkills"
+                    class="grid grid-cols-[repeat(auto-fill,minmax(120px,1fr))] gap-x-14 gap-y-14 items-center mt-10">
+
+                    <!-- This place Show Item with Javascript -->
+
+                </div>
+            </div>
+            <!-- Skills End -->
+
+
+            <!-- Projects Start -->
+            <div id="projects" class="mt-10">
+                <br /><br /><br />
+                <h1 class="text-center text-4xl font-bold text-yellow-300">Projects</h1>
+                <div id="listProjects"
+                    class="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-x-8 gap-y-8 items-center mt-10">
+
+                    <!-- this place containing a list of Projects throw on javascript -->
+
+                </div>
+            </div>
+                <!-- Projects End -->
+
+
+
+
+
+                <!-- Contacts Start -->
+                <div id="contact" class="mt-10">
+                    <br /><br /><br />
+                    <h1 class="text-center text-4xl font-bold text-yellow-300">Contact Me</h1>
+                    <div id="listContact"
+                        class="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-x-14 gap-y-5 items-center mt-10">
+
+                        <!-- This place containing a list of contacts -->
+
+                    </div>
+                </div>
+                <!-- Contacts End -->
+
+
+
+
+                <!-- Footer Start  -->
+                <footer
+                    class="mt-20 bg-white bg-opacity-10 px-3 py-3 flex items-center gap-x-3 justify-between rounded-full">
+                    <h2 class="logo text-2xl font-semibold" id="footerName">CodeLength</h2>
+                    <div id="footerLinkSocial" class="flex items-center gap-x-3">
+
+                        <!-- this place containing a list of social links -->
+
+                    </div>
+                </footer>
+                <!-- Footer End -->
+
+
+                <br>
+
+
+            </div>
+</body>
+
+</html>

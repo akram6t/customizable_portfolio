@@ -1,0 +1,126 @@
+{
+    "name": "Akram Khan",
+
+    "background": "/images/background/bg-blur3.jpg",
+
+    "headerProfile": "/images/profile/profile.png",
+    "headerDescription": "A passionate Full Stack Software Developer 🚀 having a special interest in Frontend technologies and experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
+    
+    "aboutProfile": "/images/profile/profile.png",
+    "aboutDescription": "I am a Computer Scientist who just graduated from the premier IT university COMSATS University Islamabad in Computer Science Majors. I am a highly skilled professional developer who loves to take on the challenges and then solve them. While doing my graduation, I had the pleasure of working for some amazing companies like Starbucks. I worked on a portion of their website for their Trinidad and Tobago website. I also worked with Nastech Group of companies as a freelance web developer. Nastech is a giant in IT and cabling sector in Middle Eastern countries. I have also worked with TechnoSpark on React and NextJS technologies.",
+    
+    "cv": "/cv/cv.pdf",
+
+    "whatIDo": [
+        "Prepare variety of different designs, layouts and websites",
+        "Actively listen to customers' requests, confirming full understanding before addressing concerns",
+        "Use Seo Optimization and other software tools to create to grow their business",
+        "Identify issues, analyzed information and provided solutions to problems",
+        "Convert graphic designs to usable web images using React JS",
+        "Plann website development, converting mockups into usable web presence with HTML, JavaScript, AJAX and JSON coding"
+    ],
+
+    "socialLinks": [
+        {
+            "icon": "fa-brands fa-github",
+            "name": "Github",
+            "color": "white",
+            "bgColor": "#202731",
+            "link": ""
+        },
+        {
+            "icon": "fa-brands fa-linkedin",
+            "name": "LinkedIn",
+            "color": "black",
+            "bgColor": "#2DD4BF",
+            "link": "https://google.com/"
+        },
+        {
+            "icon": "fa-brands fa-instagram",
+            "name": "Instagram",
+            "color": "white",
+            "bgColor": "#B03D75",
+            "link": "https://instagram.com/akram6t"
+        },
+        {
+            "icon": "fa-brands fa-youtube",
+            "name": "Youtube",
+            "color": "white",
+            "bgColor": "#B23A3A",
+            "link": ""
+        }
+    ],
+    "skills": [
+        {
+            "title": "ReactJs",
+            "logo": "/images/svgs/css.svg",
+            "percent": 10
+        },
+        {
+            "title": "ReactJs",
+            "logo": "/images/svgs/git.svg",
+            "percent": 60
+        },
+        {
+            "title": "ReactJs",
+            "logo": "/images/svgs/github.svg",
+            "percent": 50
+        },
+        {
+            "title": "ReactJs",
+            "logo": "/images/svgs/nextjs.svg",
+            "percent": 20
+        }
+    ],
+    "projects": [
+        {
+            "title": "ShayariApp",
+            "image": "/images/project/bg-blur.jpg",
+            "description": "this is a shayariapp",
+            "sourceCode": "https://akram.pw/projects",
+            "languages": [
+                {"name": "html", "icon": "/images/svgs/html.svg"},
+                {"name": "javascript", "icon": "/images/svgs/javascript.svg"}
+            ]
+        },
+        {
+            "title": "Matki App",
+            "image": "/images/project/bg-blue.jpg",
+            "description": "this is a MatkiApp",
+            "sourceCode": "https://akram.pw/projects",
+            "languages": [
+                {"name": "html", "icon": "/images/svgs/html.svg"},
+                {"name": "javascript", "icon": "/images/svgs/javascript.svg"},
+                {"name": "css", "icon": "/images/svgs/css.svg"}
+            ]
+        },
+        {
+            "title": "Personal Portfolio",
+            "image": "/images/project/bg-blur.jpg",
+            "description": "this is a MatkiApp",
+            "sourceCode": "https://akram.pw/projects",
+            "languages": [
+                {"name": "html", "icon": "/images/svgs/html.svg"},
+                {"name": "javascript", "icon": "/images/svgs/javascript.svg"}
+            ]
+        }
+    ],
+    "contacts": [
+        {
+            "title": "Email",
+            "subTitle": "email 2",
+            "icon": "fa-brands fa-linkedin-in"
+        },
+        {
+            "title": "Email2",
+            "subTitle": "email 2",
+            "icon": "fa-brands fa-instagram"
+        },
+        {
+            "title": "Email3",
+            "subTitle": "email 2",
+            "icon": "fa-solid fa-phone"
+        }
+    ]
+
+}

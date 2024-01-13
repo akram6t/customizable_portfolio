@@ -1,0 +1,426 @@
+AArch64
+AdonisJS
+After Effects
+Akka
+Algolia
+Alpine.js
+AWS
+Anaconda
+Android
+Android Studio
+Angular
+AngularJS
+Ansible
+Ant Design
+Apache
+Apache Airflow
+Apache Kafka
+Apache Spark
+APL
+Appcelerator
+Apple
+Appwrite
+Arch Linux
+Arduino
+Argo CD
+Astro
+Atom
+Awk
+Azios
+Azure
+Azure Devops
+Azure SQL Database
+Babel
+Backbone.js
+Ballerina
+Bamboo
+Bash
+Elastic Beats
+Behance
+BitBucket
+Blender
+Bootstrap
+Bower
+BrowserStack
+Bulma
+Bun
+C
+Cairo Graphics
+CakePHP
+Canva
+Capacitor
+Apache Cassandra
+CentOS
+Eclipse Ceylon
+Chrome
+CircleCI
+Clarity
+CLion
+Clojure
+ClojureScript
+Cloudflare
+Cloudflare Workers
+CMake
+Codeac
+Codecov
+CodeIgniter
+CodePen
+CoffeeScript
+Composer
+Confluence
+Consul
+Contao
+Core-js
+Cosmos BD
+CouchDB
+C++ (CPlusPlus)
+Crystal
+C# (CSharp)
+CSS3
+Cucumber
+Cypress
+D3.js
+Dart
+DataGrip
+DataSpell
+DBeaver
+Debian
+Deno
+Devicon
+Digital Ocean
+Discord.js
+Django
+Django REST
+Docker
+Doctrine
+.NET
+.NET core
+Dropwizard
+Drupal
+Eclipse IDE
+Elastic Search
+Electron
+Eleventy (11ty)
+Elixir
+Elm
+GNU Emacs
+Embedded C
+Ember.js
+Envoy
+Erlang
+ESLint
+Express
+Facebook
+FastAPI
+Fastify
+Fauna
+Feathers
+Fedora
+Figma
+FileZilla
+Firebase
+Firefox
+Flask
+Flutter
+Fortran
+Foundation
+FSharp (F#)
+Gatling
+Gatsby
+Gazebo
+GCC
+Gentoo
+Ghost
+GIMP
+Git
+GitBook
+GitHub
+GitHub Actions
+GitHub Codespaces
+GitLab
+Gitpod
+Gitter
+Go
+Godot Engine
+GoLand
+Google
+Google Cloud
+Gradle
+Grafana
+Grails
+GraphQL
+Apache Groovy
+Grunt.js
+Gulp.js
+Apache Hadoop
+Handlebars
+Hardhat
+Harvester
+Haskell
+Haxe
+Helm
+Heroku
+Hibernate
+Homebrew
+HTML5
+Hugo
+Internet Explorer 10 (ie10)
+IFTTT
+Adobe Illustrator
+InfluxDB
+Inkscape
+Insomnia
+IntelliJ IDEA
+Ionic
+Jaeger Tracing
+Jamstack
+Jasmine
+Java
+JavaScript
+Jeet
+Jekyll
+Jenkins
+Jest
+JetBrains
+Jira
+Jira Align
+jQuery
+JSON
+Jule
+Julia
+JUnit
+Jupyter
+K3OS
+K3s
+Kaggle
+Karate Labs
+Karma
+Keras
+Kibana
+Knex.js
+Knockout
+Kotlin
+Krakenjs
+Ktor
+Kubernetes
+LabVIEW
+Laravel
+LaTeX
+Less.js
+LinkedIn
+Linux
+Liquibase
+Livewire
+LLVM
+Logstash
+Lua
+Lumen
+Adobe Commerce (Magneto)
+Markdown
+Materialize
+Material UI
+MATLAB
+Matplotlib
+Apache Maven
+Autodesk Maya
+Meteor.js
+Microsoft SQL Server
+Minitab
+MobX
+Mocha
+MODX
+Moleculer
+MongoDB
+Mongoose.js
+Moodle
+MS-DOS
+MySQL
+Nano
+New4j
+Nest.js
+NetworkX
+Next.js
+NGINX
+NHibernate
+Nim
+Nimble
+NixOS
+Node.js
+Nodemon
+NW.js (node-webkit)
+Nerog
+NPM
+NuGet
+NumPy
+Nuxt JS
+Objective-C
+OCaml
+Oh my zsh
+Okta
+OpenAL
+OpenAPI
+OpenCL
+OpenCV
+OpenGL
+OpenStack
+openSUSE
+OpenTelemetry
+Opera
+Oracle
+p5 JS
+Packer
+Pandas
+Perl
+pfSense
+Phalcon
+Phoenix Framework
+Photon Engine
+Adobe Photoshop
+PHP
+PhpStorm
+Playwrite
+Ploty
+Podman
+Python Poetry
+Polygon
+Portainer
+PostCSS
+PostgresSQL
+Postman
+Powershell
+Adobe Premiere Pro
+Processing
+Prometheus
+Protractor Test
+PureScript
+PuTTY
+PyCharm
+PyScript
+pytest
+Python
+PyTorch
+Qodana
+Qt Framework
+Quarkus
+Quasar
+Qwik
+R
+RabbitMQ
+Ruby on Rails
+Rancher
+Raspberry Pi
+Reach
+React
+React Bootstrap
+Read the Docs
+Realm
+RedCube's-epic-Compiler-Thingy programming (ReCT)
+Red Hat
+Redis
+Redux
+Ren'Py
+Rider
+RocksDB
+Rollup.js
+Robot Operating System (ROS)
+RSpec
+RStudio
+Ruby
+RubyMine
+Rust
+Apple Safari
+Salesforce
+Sanity
+Sass
+Scala
+Scalingo
+scikit-learn
+Simple DirectMedia Layer (SDL)
+Selenium
+Sema Software
+Sequelize
+Shopware
+Autodesk ShotGrid
+Sketch
+Slack
+Socket.io
+Solidity
+Solid.js
+SonarQube
+Sourcetree
+Splunk
+Spring
+IBM SPSS Statistics
+SQLAlchemy
+SQL Developer
+SQLite
+SSH
+Stack Overflow
+Stata
+Storybook
+Streamlit
+Stylus
+Apache Subversion
+Svelte
+Swagger
+Swift
+Symfony
+Tailwind CSS
+Tauri
+TensorFlow
+HashiCorp Terraform
+TeX
+The Algorithms
+Three.js
+Titanium SDK
+Apache Tomcat
+TortoiseGit
+Tower
+Traefik Mesh
+Traefik Proxy
+Travis CI
+Trello
+Twitter
+TypeScript
+TYPO3
+Ubuntu
+Unified Modelling Language (UML)
+Unity
+UNIX
+Unreal Engine
+uWSGI
+V8
+HashiCorp Vagrant
+Vala
+HashiCorp Vault
+Vercel
+Eclipse Vert.x
+Vim
+Visual Studio
+Vite
+Vite.js
+Visual Studio Code (VS Code)
+vSphere
+Vue.js
+Vue Storefront
+Veutify
+Vyper
+WebAssembly
+Webflow
+Weblate
+Webpack
+WebStorm
+Windows 11
+Windows 8
+WooCommerce
+WordPress
+Xamarin
+Xcode
+Adobe XD
+XML
+YAML
+Yarn
+Yii Framework
+Yuno Host
+Zend Framework
+Zig

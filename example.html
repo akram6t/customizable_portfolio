@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="p-24">
+
+
+    <div class="flex items-center space-x-4">
+        <label for="dateRange" class="text-gray-700">Select Date Range:</label>
+        <select id="dateRange" onchange="getData(this.value)" class="px-4 py-2 bg-white text-gray-800 border rounded-md focus:outline-none focus:border-blue-500">
+          <option value="today">Today</option>
+          <option value="yesterday">Yesterday</option>
+          <option value="last7days">Last 7 Days</option>
+          <option value="lastmonth">Last Month</option>
+          <option value="lastyear">Last Year</option>
+        </select>
+      </div>
+      
+      <div class="mt-4">
+        <label class="block text-gray-700">Sort Order:</label>
+        <div class="flex items-center space-x-2">
+          <input type="checkbox" id="sortOrder" onchange="toggleSortOrder()" class="form-checkbox text-blue-600 focus:outline-none focus:shadow-outline-blue focus:border-blue-300">
+          <label for="sortOrder" class="text-gray-700">Ascending Order</label>
+        </div>
+      </div>
+      
+      <script>
+        function getData(option) {
+          // Add logic to fetch data based on the selected option
+          console.log(`Fetching data for: ${option}`);
+        }
+      
+        function toggleSortOrder() {
+          // Add logic to toggle between ascending and descending order
+          const sortOrderCheckbox = document.getElementById('sortOrder');
+          const sortOrder = sortOrderCheckbox.checked ? 'ascending' : 'descending';
+          console.log(`Sort Order: ${sortOrder}`);
+        }
+      </script>
+
+
+
+<div class="mt-40"></div>
+
+<div class="relative group bg-red-100">
+    <button class="bg-gray-300 px-4 py-1 rounded-lg hover:bg-gray-400">show</button>
+<ul class="shadow-lg rounded-md absolute min-w-56 bg-white hidden top-8 left-0 group-hover:block">
+    <li class="cursor-pointer px-2 py-1 hover:bg-emerald-100 active:bg-emerald-200">Today</li>
+    <li class="cursor-pointer px-2 py-1 hover:bg-emerald-100 active:bg-emerald-200">Yesterday</li>
+    <li class="cursor-pointer px-2 py-1 hover:bg-emerald-100 active:bg-emerald-200">Last 7 days</li>
+    <li class="cursor-pointer px-2 py-1 hover:bg-emerald-100 active:bg-emerald-200">Last Month</li>
+    <li class="cursor-pointer px-2 py-1 hover:bg-emerald-100 active:bg-emerald-200">Last Year year</li>
+    <li class="cursor-pointer px-2 py-1 hover:bg-emerald-100 active:bg-emerald-200"></li>
+</ul>
+</div>
+      
+
+
+</body>
+
+</html>
